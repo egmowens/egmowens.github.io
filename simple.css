@@ -1,0 +1,100 @@
+body {
+  margin: 100;
+  padding: 0;
+  background: #13290a;
+
+}
+
+
+#site-name { 
+  margin: 0;
+  font-size: 4em;
+  line-height: 1.5em;
+  font-weight: bold;
+	text-align: center;
+	color: #13290a;
+	font-family:  jaf-herb, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+#content {
+	font-family: canto, serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 120%;
+	padding: 30px;
+	color: #003666;
+	background:
+					-webkit-linear-gradient(45deg, #fdf9e7 10px, transparent 0) 0 5px,
+					-webkit-linear-gradient(-45deg, #fdf9e7 10px, #13290a 0) 0 5px;
+	background:				-moz-linear-gradient(45deg, #fdf9e7 10px, transparent 0) 0 5px,
+					-moz-linear-gradient(-45deg, #fdf9e7 10px, #13290a 0) 0 5px;
+					-o-linear-gradient(45deg, #fdf9e7 10px, transparent 0) 0 5px,
+					-o-linear-gradient(-45deg, #fdf9e7 10px, #01256e 0) 0 5px;
+					-ms-linear-gradient(45deg, #fdf9e7 10px, transparent 0) 0 5px,
+					-ms-linear-gradient(-45deg, #fdf9e7 10px, #01256e 0) 0 5px;
+					linear-gradient(45deg, #fdf9e7 10px, transparent 0) 0 5px,
+					linear-gradient(-45deg, #fdf9e7 10px, #01256e 0) 0 5px;
+	background-position: right top;
+	background-repeat: repeat-y;
+	background-size: 20px 20px;
+	background-color: #fdf9e7;
+	border-left-style: solid;
+	border-left-color: #dc2513;
+	border-left-width: 8px;
+}
+
+#buttonbox{
+	margin: auto;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+#navbutton{
+	font-family: canto, serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 135%;
+	color: #fdf9e7;
+	border-left-style: solid;
+	border-left-color: #dc2513;
+	border-left-width: 5px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	margin: 10px;
+	background:
+					-webkit-linear-gradient(45deg, #003666 4px, transparent 0) 0 2px,
+					-webkit-linear-gradient(-45deg, #003666 4px, #fdf9e7 0) 0 2px;
+	background:				-moz-linear-gradient(45deg, #003666 4px, transparent 0) 0 2px,
+					-moz-linear-gradient(-45deg, #003666 4px, #fdf9e7 0) 0 2px;
+					-o-linear-gradient(45deg, #003666 4px, transparent 0) 0 2px,
+					-o-linear-gradient(-45deg, #003666 4px, #fdf9e7 0) 0 2px;
+					-ms-linear-gradient(45deg, #003666 4px, transparent 0) 0 2px,
+					-ms-linear-gradient(-45deg, #003666 4px, #fdf9e7 0) 0 2px;
+					linear-gradient(45deg, #003666 4px, transparent 0) 0 2px,
+					linear-gradient(-45deg, #003666 4px, #fdf9e7 0) 0 2px;
+	background-position: right top;
+	background-repeat: repeat-y;
+	background-size: 8px 8px;
+	background-color: #003666; 
+}
+#navbutton a:link, a:visited, a:visited {
+	color: #fdf9e7;
+	text-decoration: none;
+}
+#navbutton a:hover {
+	text-decoration: underline;
+}
+#maintext{
+	clear: both;
+}
+a:link {
+	color: #dc2513;
+}
+a:visited{
+	color: #5ab8e4;
+}
+
